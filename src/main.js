@@ -23,7 +23,7 @@ class Main {
       this.strandBeest.motorPosition.location.x > this.canvas.width / 2 - 110 ||
       this.strandBeest.motorPosition.location.x < 110
     ) {
-      this.strandBeest.setSpeed(-this.strandBeest.speed);
+      this.strandBeest.setSpeed(-this.strandBeest.speed); // Move strandbeest back and forth
     }
   }
 

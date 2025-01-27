@@ -21,7 +21,7 @@ export class StrandBeest {
 
   update() {
     this.rotation += this.speed;
-    this.motorPosition.location.x += this.speed * 25;
+    this.motorPosition.location.x += this.speed * 25; //Fake movement
     for (const leg of this.legs) {
       leg.update(this.rotation);
     }

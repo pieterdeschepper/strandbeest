@@ -27,10 +27,11 @@ export class Point {
     ctx.fillStyle = "red";
     ctx.strokeStyle = "black";
     ctx.beginPath();
-    ctx.arc(this.location.x, this.location.y, 3, 0, Math.PI * 2);
+    ctx.arc(this.location.x, this.location.y, 2, 0, Math.PI * 2);
     ctx.stroke();
     // ctx.font = "10px Arial";
-    // ctx.fillText(i, this.location.x, this.location.y);
+    // ctx.textBaseline = "bottom";
+    // ctx.fillText(" " + i, this.location.x, this.location.y);
     ctx.closePath();
   }
 }
